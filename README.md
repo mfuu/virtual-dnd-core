@@ -5,7 +5,7 @@
 ```js
 import { Sortable } from './index';
 
-let sortable = new Sortable(elem, {
+const sortable = new Sortable(elem, {
   list: [],
   uniqueKeys: [],
   delay: 0,
@@ -39,7 +39,7 @@ sortable.rangeChanged; // virtual list range changed
 ```js
 import { Virtual } from './index';
 
-let virtual = new Virtual({
+const virtual = new Virtual({
   size: 0,
   keeps: 0,
   buffer: 0,
